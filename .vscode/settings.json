@@ -1,0 +1,4 @@
+{
+  "python.linting.pylintPath": "/Users/davidlevy/.local/share/virtualenvs/weather_tracker-7YiMNzvO/bin/pylint",
+  "python.pythonPath": "/Users/davidlevy/.local/share/virtualenvs/weather_tracker-7YiMNzvO/bin/python",
+}

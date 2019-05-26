@@ -1,0 +1,5 @@
+[run]
+include = weather_tracker/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin

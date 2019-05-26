@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+  <div class="card text-center mt-5">
+    <div class="card-header">
+      Find Temperature For Location
+    </div>
+    <div class="card-body">
+      {% crispy form %}
+    </div>
+    <div class="card-footer text-muted">
+      {% if search %}
+        <span>{{search|safe}}</span>
+      {% endif %}
+    </div>
+  </div>
+{% endblock content %}
