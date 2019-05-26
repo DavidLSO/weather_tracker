@@ -21,8 +21,13 @@ In this project there is a command to create a file with the IPS that used the s
 ## Environments
 
 DJANGO_READ_DOT_ENV_FILE=True
+
 DATABASE_URL=postgres://postgres:postgres@localhost:5432/weather_tracker
+
 DJANGO_DEBUG=True
+
 GOOGLE_API_KEY=
+
 DARK_SKY_API_KEY=
+
 EXPORT_PATH=
